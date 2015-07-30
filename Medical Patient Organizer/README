@@ -1,10 +1,10 @@
-The goal of this program was to implement a stack ADT and a stack ADT as separate classes. 
+The goal of this project was to implement a stack ADT and a stack ADT as separate classes. 
 
 The application/client program used the queue and stack to organize patients that set up appointments and were waiting to get treated.  
 
 The queue represents patients waiting their turn, and the stack represents the ability to prioritize emergency patients in addition to the regular patients. 
 
-The program used a modular design, with queue.h and stack.h as the header files for each class, queue.cpp and stack.cpp which contained the implementations of the classes, and the client program, main.cpp. 
+The project used a modular design, with queue.h and stack.h as the header files for each class, queue.cpp and stack.cpp which contained the implementations of the classes, and the client program, main.cpp. 
 
 The data structures that were used were a circular linked list and a linear linked list. 
 
