@@ -1,0 +1,10 @@
+The goal of this program was to create a block of text and alter it by removing parts of it or adding to it, and to display the text. 
+
+The design for my program made use of the self-adjusting list abstract data type. 
+
+A self adjusting list “can grow and shrink to closely match the actual memory requirements for the array without requiring the entire memory to be reallocated and the data to be copied”. 
+
+This program used a modular design, with list.h being the header file for the list class, list.cpp which had the implementations of the class functions, and the client program, prog1.cpp, which handled the user interface, input and output operations, and communicated with list.cpp through the return values of the functions. 
+
+The data structure that was used was a linear linked list of arrays. 
+
