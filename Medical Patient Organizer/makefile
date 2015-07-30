@@ -17,4 +17,4 @@ stack.o: stack.h
 	$(CC) $(CFLAGS) -c stack.cpp
 
 clean:
-	rm list *.o *~
+	rm patient *.o *~
