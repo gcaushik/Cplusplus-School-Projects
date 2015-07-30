@@ -4,6 +4,6 @@ The application/client program used the table to organize picture files on a dig
 
 The user enters a “key” (a subject in this case) and the hash function converts that into an index. 
 
-The files used in this program were main.cpp (client program), table.h (header file for the table class), and table.cpp(contains the implementations of the functions in the table class). 
+The files used in this project were main.cpp (client program), table.h (header file for the table class), and table.cpp(contains the implementations of the functions in the table class). 
 
 The hashtable with chaining as the collision resolution technique was used as the data structure.
