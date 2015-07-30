@@ -1,0 +1,35 @@
+The goal of this project was to use data abstraction and operator overloading to create a polynomial data type. 
+
+The solution was designed such that a polynomial would have the same look and feel as an integer, when performing operations. 
+
+This project contains 4 files and 1 class.
+
+For my design, I created a class called polynomial, which managed a polynomial and all of its operations. 
+
+The data structure used to store data for a polynomial was a doubly linked list. 
+
+To do operator overloading on polynomials, I thought of logical functions to overload. 
+
+First of all, the default functions I needed were overloading the assignment operator, a copy constructor, and a default constructor and destructor. 
+
+Then, I thought of how a user would want to use a polynomial and overloaded the operators that made sense for that usage. 
+
+For example, a user would want to add and subtract polynomials, so I overloaded the compound addition and subtraction operators. 
+
+A user would also want to see the value of adding two polynomials without changing the polynomials themselves, so I also overloaded the + and – operator.  
+
+I also overloaded the + and – operators as friend functions to deal with adding a polynomial and a constant, or subtracting a polynomial and a constant. 
+
+The user might also want to compare two polynomials, so I overloaded all the equality and relational operators (==, !=, <, >, <=, >=). 
+
+Other things the user might want to do with polynomials is walk through the terms of a polynomial, evaluate a polynomial for a certain value of x, enter in a polynomial for input, and ouput a polynomial. 
+
+I overloaded the insertion and extraction operators for input and output of polynomials, overloaded the iterator operators(++ and –, both prefix and postfix) for incrementing and decrementing through terms of a polynomial. 
+
+To evaluate polynomials, I overloaded the function() operator which takes one argument an integer, which is the value for x for which to evaluate. 
+
+Then after it evaluates the polynomial it returns a double value. 
+
+The user might also want to access a specific term of a polynomial, so I overloaded the subscript operator that takes an index as a value to get the appropriate term. 
+
+As for the application program, I made it so that a user could enter three polynomials, then explore operations on those three polynomials, all given by menus. 
