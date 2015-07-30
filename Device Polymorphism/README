@@ -2,7 +2,7 @@ The goal of this project was to create an object oriented solution that would si
 
 A main objective was to build an abstraction that will look and feel the same regardless of the underlying data structure used by the client program. 
 
-This program contained 5 classes and 11 files.  
+This project contained 5 classes and 11 files.  
 
 I picked three devices to implement functionality for, and those were the calculator, GPS, and the cellphone. 
 
