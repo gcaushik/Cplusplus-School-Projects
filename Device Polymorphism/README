@@ -1,0 +1,11 @@
+The goal of this project was to create an object oriented solution that would simulate the functionality of some devices that I use frequently. 
+
+A main objective was to build an abstraction that will look and feel the same regardless of the underlying data structure used by the client program. 
+
+This program contained 5 classes and 11 files.  
+
+I picked three devices to implement functionality for, and those were the calculator, GPS, and the cellphone. 
+
+I used pure polymorphism and dynamic binding to create a hierarchy that would support these devices. 
+
+The base class was a device class that contained functions that would be common for a calculator, GPS, and a cellphone.
