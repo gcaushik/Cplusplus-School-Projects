@@ -1,0 +1,11 @@
+The goal of this project was to implement a table ADT and use the graph data structure. 
+
+The application/client program used the graph to track requirements for a degree. 
+
+For example, the user might use the graph to find out what classes are needed as prerequisites to take a certain class. 
+
+The graph is basically a representation of a degree plan, where it tells you which classes you can take, and what sequence you can take to get your degree. 
+
+The files used in the program were the client program (main.cpp), the header file for the graph class (graph.h), and the implementations of the functions in the graph class (graph.cpp). 
+
+The data structure was basically an array of vertices where each vertex has a linear linked list of edges (an array of LLL).
