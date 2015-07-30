@@ -1,7 +1,0 @@
-For this project, I was using a BST (binary search tree) table abstraction and comparing the run-time efficiency to that of the hashtable that I used in Picture Organizer. 
-
-The application/client program remains the same as in Picture Organizer (organizing picture files on a digital camera into different categories). 
-
-The files used for this program are main.cpp (the client program), tree.h (header file for BST class), and tree.cpp (contains the function implementations of the BST class). 
-
-The data structure used was a non-linear linked list.
