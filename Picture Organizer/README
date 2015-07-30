@@ -1,0 +1,9 @@
+The goal of this project was to implement a table ADT and use the hashtable data structure.
+
+The application/client program used the table to organize picture files on a digital camera into different subjects(such as family, friends, etc.). 
+
+The user enters a “key” (a subject in this case) and the hash function converts that into an index. 
+
+The files used in this program were main.cpp (client program), table.h (header file for the table class), and table.cpp(contains the implementations of the functions in the table class). 
+
+The hashtable with chaining as the collision resolution technique was used as the data structure.
