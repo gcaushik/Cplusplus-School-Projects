@@ -14,4 +14,4 @@ table.o: table.h
 	$(CC) $(CFLAGS) -c table.cpp
 
 clean:
-	rm list *.o *~
+	rm table1 *.o *~
